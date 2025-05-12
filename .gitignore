@@ -1,0 +1,10 @@
+# Ignorar directorios temporales
+results/
+/tmp/
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de sistema
+.DS_Store
