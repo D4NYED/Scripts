@@ -42,6 +42,9 @@ Instrucciones:
     Ejecuta el script como se indicó arriba.
     Revisa los archivos generados en /tmp/results_*/{usuario}_results.txt.
 
+## Documentación Adicional
+- [Guía de Instalación](docs/installation.md)
+
 Advertencia ética: Úsalo solo con cuentas ficticias creadas para simulaciones. Escanear cuentas reales sin permiso viola leyes de privacidad (como GDPR) y términos de servicio.
 
 Añadir Nuevos Scripts
