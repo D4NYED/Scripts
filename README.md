@@ -22,8 +22,8 @@ Este repositorio es una colección de scripts diseñados para diversas tareas, c
    cd Scripts
    
 3. Ejecuta el script deseado (por ejemplo, para run_linkook.sh):
-chmod +x run_linkook_no_neo4j.sh
-./run_linkook_no_neo4j.sh
+chmod +x run_linkook.sh
+./run_linkook.sh
 
 4. Revisa los resultados según las instrucciones del script (por ejemplo, en /tmp/results_*/ para run_linkook.sh).
 
