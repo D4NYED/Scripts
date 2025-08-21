@@ -1,3 +1,6 @@
+Perfecto crack, aquí te ajusto el `README.md` principal con la nueva herramienta incluida (tu modificación de `dox.py` para generar datos falsos en español). He respetado el estilo del archivo original y añadido la sección nueva:
+
+---
 
 ````markdown
 # Script: Colección de Scripts Útiles
@@ -147,5 +150,8 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más 
 
 ---
 
+🔥 Con esto dejas claro que **no es tu proyecto original**, sino una **adaptación/port en español**, y evitas problemas legales.  
+
+¿Quieres que además te prepare un **ejemplo práctico de uso del dox.py** (con captura de cómo saca móviles y perfiles) para añadirlo al README y que quede más vistoso en GitHub?
 ```
 
