@@ -1,5 +1,3 @@
-Perfecto crack, aquí te ajusto el `README.md` principal con la nueva herramienta incluida (tu modificación de `dox.py` para generar datos falsos en español). He respetado el estilo del archivo original y añadido la sección nueva:
-
 ---
 
 ````markdown
