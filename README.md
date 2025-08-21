@@ -1,4 +1,3 @@
----
 
 ````markdown
 # Script: Colección de Scripts Útiles
