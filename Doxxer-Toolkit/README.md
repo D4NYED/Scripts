@@ -61,12 +61,22 @@ No pretende sustituir el trabajo original, sino **adaptarlo a entornos hispanoha
 * **Euronymou5** → Autor original de Doxxer-Toolkit.
 * **\D4nYeD** → Adaptación para teléfonos y perfiles en español.
 
-```
-
 ---
 
-👉 Lo dejé casi idéntico al formato que tenías antes, pero adaptado a la idea de que esta carpeta contiene **solo el `dox.py` modificado** y no un "fragmento parcial".  
+## 🖼️ Ejemplos de salida
 
-¿Quieres que te haga también la **tablita comparativa Original vs Modificado** (queda top para reclutadores o para darle más "chicha" en GitHub)?
-```
+A continuación se muestran capturas reales tras aplicar la modificación en `dox.py`:
+
+![Generación móvil en español](13.png)  
+*Ejemplo de números válidos en España (+34 6XXXXXXXX / +34 7XXXXXXXX).*
+
+![Perfiles falsos traducidos](18.png)  
+*Generación de perfiles falsos con datos en español.*
+
+![Integración en Doxxer-Toolkit](22.png)  
+*Menú del toolkit con las opciones modificadas.*
+
+![Resultado completo](img/captura4.png)  
+*Vista final de un perfil generado con todos los campos traducidos.*
+
 
