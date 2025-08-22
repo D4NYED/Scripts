@@ -27,7 +27,7 @@ Esta carpeta contiene una **modificación del archivo `dox.py`** del proyecto or
 3. Instala dependencias (si no las tienes ya):
 
    ```bash
-   pip install faker
+   pip install requirements.txt
    ```
 
 4. Ejecuta normalmente el script:
@@ -67,16 +67,16 @@ No pretende sustituir el trabajo original, sino **adaptarlo a entornos hispanoha
 
 A continuación se muestran capturas reales tras aplicar la modificación en `dox.py`:
 
-![Generación móvil en español](13.png)  
+![Generación teléfonos en español](13.png)  
 *Ejemplo de números válidos en España (+34 6XXXXXXXX / +34 7XXXXXXXX).*
 
 ![Perfiles falsos traducidos](18.png)  
 *Generación de perfiles falsos con datos en español.*
 
-![Integración en Doxxer-Toolkit](22.png)  
-*Menú del toolkit con las opciones modificadas.*
+![Integración en Doxxer-Toolkit](17.png)  
+*Menú del toolkit con las opcióm en ingles/español.*
 
-![Resultado completo](img/captura4.png)  
-*Vista final de un perfil generado con todos los campos traducidos.*
+![Codigo mofificado](22.png)  
+*Vista del codigo original y modificado*
 
 
