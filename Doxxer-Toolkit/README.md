@@ -50,7 +50,7 @@ Esta carpeta contiene una **modificación del archivo `dox.py`** del proyecto or
 Este trabajo es una **modificación educativa** del proyecto original bajo las condiciones de su licencia.
 
 * Proyecto original: **Euronymou5/Doxxer-Toolkit**
-* Autor de la modificación: **\[tu nombre/usuario de GitHub]**
+* Autor de la modificación: **\D4nYeD**
 
 No pretende sustituir el trabajo original, sino **adaptarlo a entornos hispanohablantes**.
 
