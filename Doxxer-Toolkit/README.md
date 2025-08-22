@@ -1,12 +1,12 @@
 ````markdown
 # 🔧 Modificación Doxxer-Toolkit (Generación en Español)
 
-Este repositorio contiene una **modificación sobre el proyecto original [Doxxer-Toolkit](https://github.com/Euronymou5/Doxxer-Toolkit)**, con el objetivo de mejorar la generación de datos falsos en **español**.
+Esta carpeta contiene una **modificación del archivo `dox.py`** del proyecto original [Doxxer-Toolkit](https://github.com/Euronymou5/Doxxer-Toolkit), con el objetivo de mejorar la generación de datos falsos en **español**.
 
-⚠️ Importante: Este repositorio **no sustituye al original**, únicamente aporta un fragmento de código que puede añadirse manualmente en `dox.py` para:
+⚠️ Importante: Este archivo **sustituye al original `dox.py`**, añadiendo las siguientes mejoras:
 
-1. ✅ Generar números **móviles españoles reales** (+34 con prefijo 6 o 7).  
-2. ✅ Generar **perfiles falsos en español**, con traducción de campos como `Trabajo`, `Empresa`, `Dirección`, `Correo`, etc.  
+1. ✅ Generación de **números móviles españoles válidos** (+34 con prefijo 6 o 7).  
+2. ✅ Creación de **perfiles falsos completos en español**, con campos traducidos: `Trabajo`, `Empresa`, `Dirección`, `Correo`, etc.  
 
 ---
 
@@ -18,35 +18,30 @@ Este repositorio contiene una **modificación sobre el proyecto original [Doxxer
    cd Doxxer-Toolkit
 ````
 
-2. Abre el archivo `dox.py` con tu editor (ejemplo con `nano`):
+2. Descarga este `dox.py` modificado y reemplaza el original:
 
    ```bash
-   nano dox.py
+   wget https://github.com/tu_usuario/tu_repo/blob/main/Scripts/dox/dox.py -O dox.py
    ```
 
-3. Busca las secciones:
+3. Instala dependencias (si no las tienes ya):
 
-   ```python
-   elif fakk == 2:
-       ...
-   elif fakk == 3:
-       ...
+   ```bash
+   pip install faker
    ```
 
-4. Sustituye **todo el contenido** de esas opciones por el código de este repositorio (`modificacion_dox.py`).
+4. Ejecuta normalmente el script:
 
-5. Guarda los cambios y ejecuta normalmente el script.
+   ```bash
+   python3 dox.py
+   ```
 
 ---
 
 ## 🛠 Ejemplo de uso
 
-```bash
-python3 dox.py
-```
-
-* **Opción 2** ahora generará números de móvil válidos (+34 6XXXXXXXX o +34 7XXXXXXXX).
-* **Opción 3** generará perfiles completos traducidos al español.
+* **Opción 2** → Generará números móviles válidos (+34 6XXXXXXXX o +34 7XXXXXXXX).
+* **Opción 3** → Generará perfiles completos traducidos al español.
 
 ---
 
@@ -54,18 +49,24 @@ python3 dox.py
 
 Este trabajo es una **modificación educativa** del proyecto original bajo las condiciones de su licencia.
 
-* Proyecto original: [Euronymou5/Doxxer-Toolkit](https://github.com/Euronymou5/Doxxer-Toolkit)
-* Autor de la modificación: *tu nombre/usuario de GitHub*
+* Proyecto original: **Euronymou5/Doxxer-Toolkit**
+* Autor de la modificación: **\[tu nombre/usuario de GitHub]**
 
-Solo pretende facilitar el uso en entornos hispanohablantes, sin ánimo de apropiación ni sustitución del trabajo original.
+No pretende sustituir el trabajo original, sino **adaptarlo a entornos hispanohablantes**.
 
 ---
 
 ## 🚀 Créditos
 
-* [Euronymou5](https://github.com/Euronymou5) → Autor original de Doxxer-Toolkit.
-* \[Tu usuario] → Adaptación para móviles y perfiles en español.
+* **Euronymou5** → Autor original de Doxxer-Toolkit.
+* **\D4nYeD** → Adaptación para teléfonos y perfiles en español.
 
 ```
 
+---
+
+👉 Lo dejé casi idéntico al formato que tenías antes, pero adaptado a la idea de que esta carpeta contiene **solo el `dox.py` modificado** y no un "fragmento parcial".  
+
+¿Quieres que te haga también la **tablita comparativa Original vs Modificado** (queda top para reclutadores o para darle más "chicha" en GitHub)?
+```
 
